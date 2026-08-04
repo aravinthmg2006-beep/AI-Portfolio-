@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Career Portfolio - Build Your Career. Build Your Portfolio. Get Hired.</title>
+  <meta name="description" content="Upload your resume, check your ATS score, discover what to learn, improve your resume, and create a professional AI-powered portfolio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="dark-theme">
+  <!-- Particle Background Canvas -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Navbar -->
+  <header class="navbar glass">
+    <div class="container nav-container">
+      <a href="/" class="brand">
+        <div class="brand-icon">
+          <i class="fa-solid fa-brain"></i>
+        </div>
+        <span class="brand-text">AI Career<span class="gradient-text">Portfolio</span></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#create" class="nav-link">Create Portfolio</a>
+        <a href="/dashboard" class="btn btn-outline btn-sm nav-dashboard-btn" id="nav-dashboard-link" style="display: none;">
+          <i class="fa-solid fa-chart-line"></i> Dashboard
+        </a>
+        <button class="theme-toggle-nav-btn ml-2" id="nav-mode-toggle" title="Toggle Light/Dark Mode" aria-label="Toggle Light/Dark Mode">
+          <i class="fa-solid fa-sun sun-icon"></i>
+          <i class="fa-solid fa-moon moon-icon"></i>
+        </button>
+      </nav>
+
+      <button class="mobile-toggle" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container hero-container">
+      <div class="badges-row fade-in">
+        <span class="badge glow-purple"><i class="fa-solid fa-wand-magic-sparkles"></i> ✨ AI Powered</span>
+        <span class="badge glow-blue"><i class="fa-solid fa-chart-pie"></i> 📊 ATS Analysis</span>
+        <span class="badge glow-emerald"><i class="fa-solid fa-rocket"></i> 🚀 Career Growth</span>
+        <span class="badge glow-gold"><i class="fa-solid fa-shield-halved"></i> 🔒 Secure</span>
+      </div>
+
+      <h1 class="hero-title fade-in">
+        Build Your Career. <br>
+        Build Your Portfolio. <br>
+        <span class="gradient-text">Get Hired.</span>
+      </h1>
+
+      <p class="hero-subtitle fade-in">
+        Upload your resume, check your ATS score, discover what to learn, improve your resume, and create a professional AI-powered portfolio.
+      </p>
+
+      <div class="hero-cta fade-in">
+        <a href="#create" class="btn btn-primary btn-lg glow-btn">
+          <i class="fa-solid fa-file-invoice"></i> Analyze My Resume
+        </a>
+        <a href="#create" class="btn btn-secondary btn-lg">
+          <i class="fa-solid fa-wand-sparkles"></i> Create My Portfolio
+        </a>
+      </div>
+
+      <!-- Hero Visual Card Grid -->
+      <div class="hero-preview-grid fade-in">
+        <div class="preview-card glass-card">
+          <div class="card-icon blue"><i class="fa-solid fa-file-shield"></i></div>
+          <h3>AI Resume Parser</h3>
+          <p>Extract skills, experience & projects instantly with Gemini AI.</p>
+        </div>
+
+        <div class="preview-card glass-card">
+          <div class="card-icon purple"><i class="fa-solid fa-gauge-high"></i></div>
+          <h3>ATS Score & Breakdown</h3>
+          <p>Get a transparent 0–100 score across 10 critical ATS metrics.</p>
+        </div>
+
+        <div class="preview-card glass-card">
+          <div class="card-icon emerald"><i class="fa-solid fa-route"></i></div>
+          <h3>Career Roadmap</h3>
+          <p>Personalized step-by-step learning stages for 18 career domains.</p>
+        </div>
+
+        <div class="preview-card glass-card">
+          <div class="card-icon gold"><i class="fa-solid fa-robot"></i></div>
+          <h3>AI Career Chatbot</h3>
+          <p>Instant answers, 7-day study plans, and project suggestions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Flow -->
+  <section id="how-it-works" class="section">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2 class="section-title">The Complete <span class="gradient-text">Career Workflow</span></h2>
+        <p class="section-subtitle">From raw resume to a high-converting portfolio and clear career path.</p>
+      </div>
+
+      <div class="workflow-steps">
+        <div class="step-card glass-card">
+          <div class="step-num">01</div>
+          <div class="step-icon"><i class="fa-solid fa-upload"></i></div>
+          <h4>Upload Resume</h4>
+          <p>Upload your PDF resume & photo securely.</p>
+        </div>
+
+        <div class="step-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+
+        <div class="step-card glass-card">
+          <div class="step-num">02</div>
+          <div class="step-icon"><i class="fa-solid fa-chart-simple"></i></div>
+          <h4>Analyze ATS Score</h4>
+          <p>Get detailed recommendations to pass ATS.</p>
+        </div>
+
+        <div class="step-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+
+        <div class="step-card glass-card">
+          <div class="step-num">03</div>
+          <div class="step-icon"><i class="fa-solid fa-compass"></i></div>
+          <h4>Choose Domain</h4>
+          <p>Select or let AI recommend your ideal domain.</p>
+        </div>
+
+        <div class="step-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+
+        <div class="step-card glass-card">
+          <div class="step-num">04</div>
+          <div class="step-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h4>Learning Roadmap</h4>
+          <p>Track missing skills & study plans.</p>
+        </div>
+
+        <div class="step-arrow"><i class="fa-solid fa-chevron-right"></i></div>
+
+        <div class="step-card glass-card">
+          <div class="step-num">05</div>
+          <div class="step-icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <h4>Generate Portfolio</h4>
+          <p>Share your live, production portfolio URL!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Create Portfolio Section (Two Column Layout) -->
+  <section id="create" class="section create-section">
+    <div class="container">
+      <div class="create-grid">
+        <!-- LEFT SIDE: AI Career Portfolio Intro & Features -->
+        <div class="create-intro">
+          <span class="subheading-tag"><i class="fa-solid fa-sparkles"></i> AI Career Portfolio</span>
+          <h2 class="create-title">Create Your Professional Portfolio <span class="gradient-text">with AI</span></h2>
+          <p class="create-description">
+            Upload your resume and let AI understand your skills, experience, education, and projects. In seconds, get a personalized career roadmap, ATS recommendations, and a stunning portfolio.
+          </p>
+
+          <div class="features-list">
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+              <div class="feature-text">
+                <strong>AI-Powered Resume Extraction</strong>
+                <span>Parse PDF text automatically without manual retyping.</span>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+              <div class="feature-text">
+                <strong>ATS Resume Analysis</strong>
+                <span>Scored against 10 critical hiring categories.</span>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+              <div class="feature-text">
+                <strong>Personalized Career Roadmap</strong>
+                <span>10-stage learning plan based on your skill gaps.</span>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+              <div class="feature-text">
+                <strong>AI Career Assistant</strong>
+                <span>Interactive chatbot for 7-day study plans & guidance.</span>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+              <div class="feature-text">
+                <strong>GitHub Integration</strong>
+                <span>Fetch live repository stars, forks, and project metrics.</span>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fa-solid fa-check"></i></div>
+              <div class="feature-text">
+                <strong>Professional Portfolio Generation</strong>
+                <span>Shareable link with custom theme customization.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT SIDE: Form Card -->
+        <div class="create-form-wrapper">
+          <div class="form-card glass-card">
+            <div class="form-header">
+              <h3><i class="fa-solid fa-id-card"></i> Create Your Portfolio</h3>
+              <p>Fill in your basic details and upload your resume PDF to begin.</p>
+            </div>
+
+            <form id="portfolio-form" enctype="multipart/form-data">
+              <!-- Personal Information Group -->
+              <div class="form-section-title"><i class="fa-solid fa-user"></i> Personal Information</div>
+              <div class="form-group">
+                <label for="fullName">Full Name <span class="required">*</span></label>
+                <input type="text" id="fullName" name="fullName" class="form-input" placeholder="e.g. Eswar MS" required>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="professionalTitle">Professional Title</label>
+                  <input type="text" id="professionalTitle" name="professionalTitle" class="form-input" placeholder="e.g. Full Stack Developer">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email <span class="required">*</span></label>
+                  <input type="email" id="email" name="email" class="form-input" placeholder="e.g. eswar@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" class="form-input" placeholder="e.g. +1 234 567 8900">
+                </div>
+                <div class="form-group">
+                  <label for="location">Location</label>
+                  <input type="text" id="location" name="location" class="form-input" placeholder="e.g. San Francisco, CA">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="shortBio">Short Bio</label>
+                <textarea id="shortBio" name="shortBio" class="form-input form-textarea" rows="3" placeholder="Brief summary of your professional expertise and focus..."></textarea>
+              </div>
+
+              <!-- Social Links Group -->
+              <div class="form-section-title"><i class="fa-solid fa-share-nodes"></i> Social Links</div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="linkedin"><i class="fa-brands fa-linkedin"></i> LinkedIn URL</label>
+                  <input type="url" id="linkedin" name="linkedin" class="form-input" placeholder="https://linkedin.com/in/username">
+                </div>
+                <div class="form-group">
+                  <label for="github"><i class="fa-brands fa-github"></i> GitHub Username / URL</label>
+                  <input type="text" id="github" name="github" class="form-input" placeholder="e.g. octocat or github.com/octocat">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="website"><i class="fa-solid fa-globe"></i> Personal Website</label>
+                  <input type="url" id="website" name="website" class="form-input" placeholder="https://yourdomain.com">
+                </div>
+                <div class="form-group">
+                  <label for="twitter"><i class="fa-brands fa-x-twitter"></i> Twitter / X</label>
+                  <input type="text" id="twitter" name="twitter" class="form-input" placeholder="@username">
+                </div>
+              </div>
+
+              <!-- Resume Upload Group -->
+              <div class="form-section-title"><i class="fa-solid fa-file-pdf"></i> Resume Upload</div>
+              <div class="form-group">
+                <label>Resume PDF <span class="required">*</span> <small class="text-muted">(Max 5 MB)</small></label>
+                
+                <div class="dropzone" id="resume-dropzone">
+                  <input type="file" id="resumeFile" name="resume" accept=".pdf" class="file-input-hidden" required>
+                  <div class="dropzone-content">
+                    <i class="fa-solid fa-cloud-arrow-up dropzone-icon"></i>
+                    <p class="dropzone-text">Drag and drop your resume PDF here, or <span class="highlight">browse</span></p>
+                    <span class="dropzone-sub">Only text-based PDF files are accepted</span>
+                  </div>
+                </div>
+
+                <div class="file-preview-card hidden" id="resume-preview">
+                  <div class="file-info">
+                    <i class="fa-solid fa-file-pdf pdf-icon"></i>
+                    <div class="file-details">
+                      <span class="file-name" id="pdf-name">resume.pdf</span>
+                      <span class="file-size" id="pdf-size">1.2 MB</span>
+                    </div>
+                  </div>
+                  <div class="file-actions">
+                    <span class="status-badge success"><i class="fa-solid fa-circle-check"></i> Ready</span>
+                    <button type="button" class="btn-icon danger" id="remove-pdf" title="Remove file"><i class="fa-solid fa-trash"></i></button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Profile Photo Upload Group -->
+              <div class="form-section-title"><i class="fa-solid fa-camera"></i> Profile Photo (Optional)</div>
+              <div class="form-group">
+                <div class="photo-upload-container">
+                  <div class="photo-preview-avatar" id="photo-preview-box">
+                    <i class="fa-solid fa-user default-avatar-icon"></i>
+                    <img id="photo-img" src="" alt="Profile Preview" class="hidden">
+                  </div>
+                  <div class="photo-upload-controls">
+                    <label for="photoFile" class="btn btn-outline btn-sm">
+                      <i class="fa-solid fa-image"></i> Browse Photo
+                    </label>
+                    <input type="file" id="photoFile" name="photo" accept="image/*" class="file-input-hidden">
+                    <button type="button" class="btn btn-danger-outline btn-sm hidden" id="remove-photo">
+                      <i class="fa-solid fa-trash"></i> Remove
+                    </button>
+                    <small class="text-muted block mt-1">PNG, JPG or WebP (Max 5MB)</small>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Form Submit Button -->
+              <button type="submit" class="btn btn-primary btn-block btn-lg glow-btn mt-4" id="submit-btn">
+                <span class="btn-text">Analyze Resume & Launch Dashboard <i class="fa-solid fa-arrow-right"></i></span>
+                <span class="btn-spinner hidden"><i class="fa-solid fa-circle-notch fa-spin"></i> Parsing Resume with AI...</span>
+              </button>
+
+              <div class="form-error-alert hidden" id="form-error"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="brand-icon"><i class="fa-solid fa-brain"></i></div>
+        <span>AI Career Portfolio</span>
+      </div>
+      <p class="footer-copy">"Your Resume. Your Career Roadmap. Your Portfolio. Powered by AI."</p>
+      <p class="footer-credits">&copy; 2026 AI Career Portfolio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

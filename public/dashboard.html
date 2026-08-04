@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - AI Career Portfolio</title>
+  <meta name="description" content="AI Career Dashboard - Analyze ATS Score, Discover Career Domain, Learning Roadmap, and Generate Portfolio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/dashboard.css">
+</head>
+<body class="dark-theme">
+  <!-- Navbar -->
+  <header class="navbar glass">
+    <div class="container nav-container">
+      <a href="/" class="brand">
+        <div class="brand-icon"><i class="fa-solid fa-brain"></i></div>
+        <span class="brand-text">AI Career<span class="gradient-text">Portfolio</span></span>
+      </a>
+
+      <div class="nav-user-meta">
+        <span class="user-welcome" id="user-welcome-name"><i class="fa-solid fa-user-circle"></i> Candidate</span>
+        <a href="/review" class="btn btn-secondary btn-sm"><i class="fa-solid fa-pen-to-square"></i> Review Resume</a>
+        <a href="/" class="btn btn-outline btn-sm"><i class="fa-solid fa-arrow-left"></i> New Resume</a>
+        <button class="theme-toggle-nav-btn ml-2" id="nav-mode-toggle" title="Toggle Light/Dark Mode" aria-label="Toggle Light/Dark Mode">
+          <i class="fa-solid fa-sun sun-icon"></i>
+          <i class="fa-solid fa-moon moon-icon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="dashboard-main container">
+    <!-- Top Header Banner -->
+    <div class="dashboard-header-banner glass-card">
+      <div class="banner-text">
+        <h2>Career Strategy <span class="gradient-text">Dashboard</span></h2>
+        <p>Monitor your ATS compatibility score, refine your career domain, complete your learning roadmap, and launch your portfolio.</p>
+      </div>
+      <div class="banner-actions">
+        <button id="generate-portfolio-banner-btn" class="btn btn-primary glow-btn">
+          <i class="fa-solid fa-wand-sparkles"></i> Generate Portfolio
+        </button>
+      </div>
+    </div>
+
+    <!-- Stats Cards Row -->
+    <div class="stats-grid">
+      <!-- ATS Score Card -->
+      <div class="stat-card glass-card">
+        <div class="stat-header">
+          <span class="stat-title">ATS Resume Score</span>
+          <i class="fa-solid fa-circle-info text-muted" title="Estimated score based on 10 best-practice categories"></i>
+        </div>
+        <div class="stat-body circular-progress-wrapper">
+          <svg class="progress-ring" width="100" height="100">
+            <circle class="progress-ring-bg" stroke="rgba(255,255,255,0.08)" stroke-width="8" fill="transparent" r="40" cx="50" cy="50"/>
+            <circle id="ats-progress-circle" class="progress-ring-fill" stroke="#8b5cf6" stroke-width="8" stroke-dasharray="251.2" stroke-dashoffset="251.2" stroke-linecap="round" fill="transparent" r="40" cx="50" cy="50"/>
+          </svg>
+          <div class="progress-text">
+            <span class="stat-number" id="ats-score-num">--</span>
+            <span class="stat-denom">/100</span>
+          </div>
+        </div>
+        <div class="stat-footer" id="ats-score-status">Calculating ATS...</div>
+      </div>
+
+      <!-- Career Readiness Card -->
+      <div class="stat-card glass-card">
+        <div class="stat-header">
+          <span class="stat-title">Career Readiness</span>
+          <i class="fa-solid fa-rocket text-muted"></i>
+        </div>
+        <div class="stat-body circular-progress-wrapper">
+          <svg class="progress-ring" width="100" height="100">
+            <circle class="progress-ring-bg" stroke="rgba(255,255,255,0.08)" stroke-width="8" fill="transparent" r="40" cx="50" cy="50"/>
+            <circle id="readiness-progress-circle" class="progress-ring-fill" stroke="#3b82f6" stroke-width="8" stroke-dasharray="251.2" stroke-dashoffset="251.2" stroke-linecap="round" fill="transparent" r="40" cx="50" cy="50"/>
+          </svg>
+          <div class="progress-text">
+            <span class="stat-number" id="readiness-score-num">--</span>
+            <span class="stat-denom">/100</span>
+          </div>
+        </div>
+        <div class="stat-footer" id="readiness-status">Evaluating skills...</div>
+      </div>
+
+      <!-- Selected Domain Card -->
+      <div class="stat-card glass-card">
+        <div class="stat-header">
+          <span class="stat-title">Target Domain</span>
+          <i class="fa-solid fa-briefcase text-muted"></i>
+        </div>
+        <div class="stat-body simple-stat">
+          <div class="domain-badge-large" id="selected-domain-text">Full Stack Development</div>
+        </div>
+        <div class="stat-footer">
+          <button class="btn-text-link" id="change-domain-btn"><i class="fa-solid fa-sliders"></i> Select / Change Domain</button>
+        </div>
+      </div>
+
+      <!-- Skills & Projects Count Cards -->
+      <div class="stat-card glass-card">
+        <div class="stat-header">
+          <span class="stat-title">Detected Skills</span>
+          <i class="fa-solid fa-code text-muted"></i>
+        </div>
+        <div class="stat-body simple-stat">
+          <span class="stat-number-large" id="skills-count">0</span>
+          <span class="stat-unit">Technical Skills</span>
+        </div>
+        <div class="stat-footer text-muted" id="missing-skills-count">0 Missing Skills identified</div>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs Bar -->
+    <div class="dashboard-tabs-nav glass-card">
+      <button class="tab-btn active" data-tab="overview"><i class="fa-solid fa-gauge"></i> Overview</button>
+      <button class="tab-btn" data-tab="ats"><i class="fa-solid fa-chart-pie"></i> ATS Score Analysis</button>
+      <button class="tab-btn" data-tab="suggestions"><i class="fa-solid fa-wand-magic-sparkles"></i> Improve Resume</button>
+      <button class="tab-btn" data-tab="roadmap"><i class="fa-solid fa-route"></i> Learning Roadmap</button>
+      <button class="tab-btn" data-tab="domain"><i class="fa-solid fa-compass"></i> Career Domain</button>
+      <button class="tab-btn" data-tab="portfolio"><i class="fa-solid fa-laptop-code"></i> Portfolio Themes</button>
+      <a href="/review" class="tab-btn tab-link"><i class="fa-solid fa-pen"></i> Review Resume Data</a>
+    </div>
+
+    <!-- TAB CONTENT SECTIONS -->
+
+    <!-- Tab 1: Overview -->
+    <section class="tab-content active" id="tab-overview">
+      <div class="grid-2-col">
+        <!-- ATS Breakdown Quick Card -->
+        <div class="card glass-card">
+          <div class="card-header-row">
+            <h3><i class="fa-solid fa-chart-column"></i> ATS Category Breakdown</h3>
+            <span class="badge glow-purple">Transparent Metrics</span>
+          </div>
+          <div class="breakdown-list" id="overview-breakdown-list">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- Career AI Recommendations Quick Card -->
+        <div class="card glass-card">
+          <div class="card-header-row">
+            <h3><i class="fa-solid fa-lightbulb"></i> Key Recommendations</h3>
+            <span class="badge glow-emerald">AI Insights</span>
+          </div>
+          <div class="suggestions-quick-list" id="overview-suggestions-list">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 2: ATS Score Analysis -->
+    <section class="tab-content" id="tab-ats">
+      <div class="disclaimer-banner glass-card">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <span><strong>Disclaimer:</strong> ATS compatibility score is an estimate based on common resume best practices. Different ATS systems may score resumes differently.</span>
+      </div>
+
+      <div class="ats-detailed-grid">
+        <div class="card glass-card">
+          <h3><i class="fa-solid fa-list-check"></i> Score Evaluation Categories</h3>
+          <p class="text-muted mb-4">Total score out of 100 points, broken into transparent criteria.</p>
+
+          <div class="category-grid" id="ats-category-details">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 3: ATS Improvement Suggestions -->
+    <section class="tab-content" id="tab-suggestions">
+      <!-- Potential Score Banner -->
+      <div class="potential-score-card glass-card glow-border-purple">
+        <div class="score-comparison">
+          <div class="score-box">
+            <span class="score-label">Current ATS Score</span>
+            <span class="score-val" id="current-score-val">72</span>
+          </div>
+          <div class="score-arrow"><i class="fa-solid fa-right-long"></i></div>
+          <div class="score-box highlight">
+            <span class="score-label">Estimated Potential Score</span>
+            <span class="score-val" id="potential-score-val">88</span>
+          </div>
+        </div>
+        <div class="score-explanation">
+          <h4><i class="fa-solid fa-chart-line"></i> Score Improvement Prediction</h4>
+          <p>If you apply the recommended improvements below, your resume may become more ATS-friendly. The estimated score is only a guideline.</p>
+        </div>
+      </div>
+
+      <h3 class="mt-4 mb-3"><i class="fa-solid fa-list-ol"></i> Prioritized Improvement Recommendations</h3>
+
+      <div class="suggestions-priority-accordion" id="suggestions-container">
+        <!-- Dynamically populated Critical, High, Medium, Optional cards -->
+      </div>
+    </section>
+
+    <!-- Tab 4: Learning Roadmap -->
+    <section class="tab-content" id="tab-roadmap">
+      <div class="section-intro-card glass-card mb-4">
+        <div>
+          <h3><i class="fa-solid fa-graduation-cap"></i> Personalized Learning Roadmap</h3>
+          <p class="text-muted">Dynamically generated for <strong id="roadmap-domain-name">Full Stack Development</strong> based on missing skills in your resume.</p>
+        </div>
+      </div>
+
+      <div class="stages-timeline" id="roadmap-stages-container">
+        <!-- Dynamically populated learning stages -->
+      </div>
+    </section>
+
+    <!-- Tab 5: Career Domain Selection -->
+    <section class="tab-content" id="tab-domain">
+      <div class="ai-recommendation-box glass-card mb-4">
+        <div class="recommendation-header">
+          <i class="fa-solid fa-wand-magic-sparkles text-purple font-large"></i>
+          <div>
+            <h3>Let AI Recommend Your Domain</h3>
+            <p class="text-muted">Analyze your resume skills, projects, and experience to pick the best career fit.</p>
+          </div>
+          <button id="ai-recommend-domain-btn" class="btn btn-outline btn-sm">
+            <i class="fa-solid fa-robot"></i> Recommend Domain
+          </button>
+        </div>
+        <div id="ai-recommendation-result" class="recommendation-details hidden">
+          <!-- AI recommendation result details -->
+        </div>
+      </div>
+
+      <h3 class="mb-3"><i class="fa-solid fa-grid-2"></i> Select Your Career Domain (18 Available)</h3>
+
+      <div class="domains-grid" id="domains-grid">
+        <!-- 18 Domain Cards generated by JS -->
+      </div>
+    </section>
+
+    <!-- Tab 6: Portfolio Themes & Generation -->
+    <section class="tab-content" id="tab-portfolio">
+      <div class="card glass-card">
+        <h3><i class="fa-solid fa-palette"></i> Choose Portfolio Theme</h3>
+        <p class="text-muted mb-4">Select a visual aesthetic theme for your generated online portfolio.</p>
+
+        <div class="themes-grid">
+          <div class="theme-card active" data-theme="midnight-purple">
+            <div class="theme-preview midnight-purple-bg">
+              <div class="theme-dot"></div><div class="theme-line"></div>
+            </div>
+            <span>Midnight Purple</span>
+          </div>
+
+          <div class="theme-card" data-theme="ocean-blue">
+            <div class="theme-preview ocean-blue-bg">
+              <div class="theme-dot"></div><div class="theme-line"></div>
+            </div>
+            <span>Ocean Blue</span>
+          </div>
+
+          <div class="theme-card" data-theme="emerald-green">
+            <div class="theme-preview emerald-green-bg">
+              <div class="theme-dot"></div><div class="theme-line"></div>
+            </div>
+            <span>Emerald Green</span>
+          </div>
+
+          <div class="theme-card" data-theme="sunset-orange">
+            <div class="theme-preview sunset-orange-bg">
+              <div class="theme-dot"></div><div class="theme-line"></div>
+            </div>
+            <span>Sunset Orange</span>
+          </div>
+
+          <div class="theme-card" data-theme="rose-gold">
+            <div class="theme-preview rose-gold-bg">
+              <div class="theme-dot"></div><div class="theme-line"></div>
+            </div>
+            <span>Rose Gold</span>
+          </div>
+        </div>
+
+        <div class="portfolio-generate-box mt-4">
+          <button id="final-generate-btn" class="btn btn-primary btn-lg glow-btn">
+            <i class="fa-solid fa-rocket"></i> Generate & Save Portfolio Now
+          </button>
+        </div>
+
+        <div id="portfolio-url-result" class="portfolio-url-box glass-card hidden mt-4">
+          <h4><i class="fa-solid fa-circle-check text-emerald"></i> Portfolio Published!</h4>
+          <p>Your shareable portfolio URL is ready:</p>
+          <div class="url-input-group">
+            <input type="text" id="shareable-url-input" class="form-input" readonly>
+            <button id="copy-url-btn" class="btn btn-secondary"><i class="fa-solid fa-copy"></i> Copy Link</button>
+            <a id="view-portfolio-btn" href="#" target="_blank" class="btn btn-primary"><i class="fa-solid fa-up-right-from-square"></i> Visit Portfolio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FLOATING AI CAREER CHATBOT DRAWER -->
+  <div class="chatbot-floating-trigger" id="chatbot-trigger">
+    <i class="fa-solid fa-robot"></i>
+    <span class="chat-badge-pulse"></span>
+  </div>
+
+  <div class="chatbot-window glass-card hidden" id="chatbot-window">
+    <div class="chatbot-header">
+      <div class="bot-info">
+        <div class="bot-avatar"><i class="fa-solid fa-robot"></i></div>
+        <div>
+          <h4>Career AI Assistant</h4>
+          <span class="status-indicator">● Online & Ready</span>
+        </div>
+      </div>
+      <button class="chat-close-btn" id="chatbot-close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <div class="chatbot-messages" id="chat-messages">
+      <div class="chat-msg bot">
+        <div class="msg-bubble">
+          👋 Hi! I am your <strong>Career AI Assistant</strong>. Ask me anything about improving your ATS score, picking projects, or creating a 7-day study plan!
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Action Prompt Chips -->
+    <div class="chat-quick-chips">
+      <button class="chip-btn" data-prompt="How can I improve my ATS score?">⚡ Improve ATS Score</button>
+      <button class="chip-btn" data-prompt="Create a 7-day study plan for me.">📅 7-Day Study Plan</button>
+      <button class="chip-btn" data-prompt="What should I learn next?">🚀 What to learn next?</button>
+      <button class="chip-btn" data-prompt="Am I ready for a job in my domain?">💼 Am I job ready?</button>
+    </div>
+
+    <div class="chatbot-input-box">
+      <input type="text" id="chat-input" placeholder="Type a career question..." class="form-input">
+      <button id="chat-send-btn" class="btn btn-primary btn-icon-only"><i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+  </div>
+
+  <script src="/js/dashboard.js"></script>
+</body>
+</html>

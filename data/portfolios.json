@@ -1,0 +1,1830 @@
+[
+  {
+    "id": "1aa7d077-86ad-47b9-8480-dbcd89435fb4",
+    "slug": "eswar-ms",
+    "createdAt": "2026-07-28T09:09:39.647Z",
+    "updatedAt": "2026-07-28T09:09:39.647Z",
+    "theme": "midnight-purple",
+    "personalInfo": {
+      "fullName": "Eswar MS",
+      "professionalTitle": "Full Stack Engineer"
+    },
+    "careerDomain": {
+      "selected": "",
+      "recommended": "",
+      "reason": ""
+    },
+    "skills": [],
+    "projects": [],
+    "education": [],
+    "experience": [],
+    "certifications": [],
+    "languages": [],
+    "achievements": [],
+    "atsAnalysis": {
+      "score": 0,
+      "breakdown": {},
+      "suggestions": [],
+      "estimatedPotentialScore": 0
+    },
+    "careerReadiness": {
+      "score": 0,
+      "breakdown": {}
+    },
+    "learningRoadmap": {},
+    "githubData": {},
+    "socialLinks": {},
+    "profilePhoto": null,
+    "resumeFile": null
+  },
+  {
+    "id": "b1f21749-94d1-4825-adce-b568c1f771c6",
+    "slug": "eswar-ms-1",
+    "createdAt": "2026-07-28T09:14:50.916Z",
+    "updatedAt": "2026-07-28T09:14:50.916Z",
+    "theme": "midnight-purple",
+    "personalInfo": {
+      "fullName": "Eswar MS",
+      "email": "eswar@example.com"
+    },
+    "careerDomain": {
+      "selected": "",
+      "recommended": "",
+      "reason": ""
+    },
+    "skills": [],
+    "projects": [],
+    "education": [],
+    "experience": [],
+    "certifications": [],
+    "languages": [],
+    "achievements": [],
+    "atsAnalysis": {
+      "score": 0,
+      "breakdown": {},
+      "suggestions": [],
+      "estimatedPotentialScore": 0
+    },
+    "careerReadiness": {
+      "score": 0,
+      "breakdown": {}
+    },
+    "learningRoadmap": {},
+    "githubData": {},
+    "socialLinks": {},
+    "profilePhoto": null,
+    "resumeFile": null
+  },
+  {
+    "id": "0b759597-a752-4969-a337-fa0873c0fa36",
+    "slug": "eswar-m-s",
+    "createdAt": "2026-07-28T09:16:29.660Z",
+    "updatedAt": "2026-07-28T09:16:29.660Z",
+    "theme": "emerald-green",
+    "personalInfo": {
+      "fullName": "Eswar M S",
+      "professionalTitle": "python developer",
+      "email": "eswarms565@gmail.com",
+      "phone": "6379084809",
+      "location": "Madurai - Tamilnadu",
+      "shortBio": "Software Developer Projects Sentify: Emotion Detection"
+    },
+    "careerDomain": {
+      "selected": "Full Stack Development",
+      "recommended": "Full Stack Development",
+      "reason": "AI Analyzed Fit"
+    },
+    "skills": [
+      "JavaScript",
+      "Python",
+      "HTML",
+      "CSS",
+      "React",
+      "SQL",
+      "MySQL",
+      "Git",
+      "Machine Learning",
+      "Django",
+      "Flask"
+    ],
+    "projects": [
+      {
+        "name": "Career Portfolio Project",
+        "description": "Developed a dynamic web application to demonstrate software development skills.",
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML",
+          "CSS"
+        ],
+        "githubUrl": "https://github.com/Eswar565",
+        "liveDemo": null
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor of Science in Computer Science / Related Field",
+        "institution": "University / College",
+        "location": null,
+        "startYear": "2020",
+        "endYear": "2024",
+        "cgpa": null,
+        "description": "Studied core computer science concepts, software engineering principles, and data structures."
+      }
+    ],
+    "experience": [
+      {
+        "jobTitle": "Software Developer",
+        "company": "Tech Solutions",
+        "location": "Remote",
+        "startDate": "2023",
+        "endDate": "Present",
+        "employmentType": "Full-time",
+        "responsibilities": [
+          "Developed web components and features.",
+          "Collaborated with cross-functional team members."
+        ],
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      }
+    ],
+    "achievements": [
+      "Successfully completed technical projects."
+    ],
+    "atsAnalysis": {
+      "score": 78,
+      "breakdown": {
+        "contactInformation": 9,
+        "professionalSummary": 8,
+        "skills": 12,
+        "workExperience": 12,
+        "projects": 8,
+        "education": 9,
+        "keywords": 7,
+        "resumeFormatting": 8,
+        "achievementsMetrics": 4,
+        "certifications": 1
+      },
+      "suggestions": [
+        {
+          "category": "Measurable Results",
+          "priority": "medium",
+          "problem": "Project descriptions do not mention quantifiable achievements or metrics.",
+          "whyItMatters": "Recruiters favor candidates who quantify impact rather than just listing responsibilities.",
+          "howToFix": "Include metrics like latency reduction, performance boost, or user scale.",
+          "example": "Instead of 'Built an API', use 'Designed a REST API serving 1,000+ daily requests with sub-100ms response time.'"
+        }
+      ],
+      "estimatedPotentialScore": 94
+    },
+    "careerReadiness": {
+      "score": 62,
+      "breakdown": {
+        "skills": 100,
+        "projects": 30,
+        "experience": 30,
+        "education": 85,
+        "certifications": 40,
+        "atsScore": 72
+      }
+    },
+    "learningRoadmap": {
+      "domain": "Full Stack Development",
+      "stages": [
+        {
+          "stageName": "Stage 1: Core Fundamentals",
+          "topics": [
+            {
+              "topic": "HTML5, CSS3 & JavaScript (ES6+)",
+              "whyImportant": "Foundation for building interactive web applications and user interfaces.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "MDN Web Docs",
+                "JavaScript.info",
+                "freeCodeCamp"
+              ],
+              "practiceProject": "Build an interactive dynamic web portfolio dashboard."
+            },
+            {
+              "topic": "Git & Version Control",
+              "whyImportant": "Essential for code collaboration, tracking changes, and GitHub integration.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "Git Documentation",
+                "GitHub Skills"
+              ],
+              "practiceProject": "Publish projects with clear commit history on GitHub."
+            }
+          ]
+        },
+        {
+          "stageName": "Stage 2: Backend & Database Fundamentals",
+          "topics": [
+            {
+              "topic": "Node.js & Express.js REST APIs",
+              "whyImportant": "Crucial for backend business logic, server routing, and API integration.",
+              "status": "Missing",
+              "difficulty": "Intermediate",
+              "resources": [
+                "Express Docs",
+                "Node.js Official Guide"
+              ],
+              "practiceProject": "Build a REST API for user authentication and data management."
+            },
+            {
+              "topic": "Relational & Document Databases (SQL / JSON)",
+              "whyImportant": "Core persistence layer for web applications.",
+              "status": "Completed",
+              "difficulty": "Intermediate",
+              "resources": [
+                "PostgreSQL Tutorial",
+                "MongoDB University"
+              ],
+              "practiceProject": "Design a data schema and query database efficiently."
+            }
+          ]
+        },
+        {
+          "stageName": "Stage 3: Advanced Architecture & Deployment",
+          "topics": [
+            {
+              "topic": "Docker & Containerization",
+              "whyImportant": "Standardizes development and production deployment environments.",
+              "status": "Missing",
+              "difficulty": "Advanced",
+              "resources": [
+                "Docker Curriculum",
+                "Play with Docker"
+              ],
+              "practiceProject": "Containerize full-stack applications with Docker Compose."
+            },
+            {
+              "topic": "CI/CD & Cloud Deployment",
+              "whyImportant": "Automates testing and cloud deployments to AWS/Vercel/Render.",
+              "status": "Missing",
+              "difficulty": "Advanced",
+              "resources": [
+                "GitHub Actions Docs",
+                "AWS Academy"
+              ],
+              "practiceProject": "Set up automated deployment pipeline for production releases."
+            }
+          ]
+        }
+      ]
+    },
+    "githubData": {},
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/eswar-dev-/",
+      "github": "https://github.com/Eswar565",
+      "website": null,
+      "twitter": null
+    },
+    "profilePhoto": null,
+    "resumeFile": null
+  },
+  {
+    "id": "cb7cfe1f-c8c1-45ce-b268-27cd7eac6956",
+    "slug": "eswar-m-s-1",
+    "createdAt": "2026-07-28T09:33:39.819Z",
+    "updatedAt": "2026-07-28T09:33:39.819Z",
+    "theme": "rose-gold",
+    "personalInfo": {
+      "fullName": "Eswar M S",
+      "professionalTitle": "python developer",
+      "email": "eswarms565@gmail.com",
+      "phone": "6379084809",
+      "location": "Chennai, TamilNadu",
+      "shortBio": "Software Developer Projects Sentify: Emotion Detection"
+    },
+    "careerDomain": {
+      "selected": "Python Development",
+      "recommended": "Python Development",
+      "reason": "AI Analyzed Fit"
+    },
+    "skills": [
+      "JavaScript",
+      "Python",
+      "HTML",
+      "CSS",
+      "React",
+      "SQL",
+      "MySQL",
+      "Git",
+      "Machine Learning",
+      "Django",
+      "Flask"
+    ],
+    "projects": [
+      {
+        "name": "Sentify: Emotion Detection",
+        "description": "github.com/Eswar565/sentify Experience Web Development Intern",
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML",
+          "CSS"
+        ],
+        "githubUrl": "https://github.com/Eswar565",
+        "liveDemo": null
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.E. Computer Science Engineering",
+        "institution": "K.L.N. College of Engineering",
+        "location": null,
+        "startYear": null,
+        "endYear": null,
+        "cgpa": null,
+        "description": "Certificates Python full stack (course) AI Fundamentals: Foundations for Understanding AI"
+      }
+    ],
+    "experience": [
+      {
+        "jobTitle": "Web Development Intern",
+        "company": "FrontierWox Tech Private Limited",
+        "location": null,
+        "startDate": "Dates specified in resume",
+        "endDate": "Present",
+        "employmentType": null,
+        "responsibilities": [
+          "Education",
+          "B.E. Computer Science Engineering",
+          "K.L.N. College of Engineering",
+          "Certificates"
+        ],
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      }
+    ],
+    "achievements": [],
+    "atsAnalysis": {
+      "score": 76,
+      "breakdown": {
+        "contactInformation": 9,
+        "professionalSummary": 8,
+        "skills": 12,
+        "workExperience": 12,
+        "projects": 8,
+        "education": 9,
+        "keywords": 7,
+        "resumeFormatting": 8,
+        "achievementsMetrics": 2,
+        "certifications": 1
+      },
+      "suggestions": [],
+      "estimatedPotentialScore": 92
+    },
+    "careerReadiness": {
+      "score": 62,
+      "breakdown": {
+        "skills": 100,
+        "projects": 30,
+        "experience": 30,
+        "education": 85,
+        "certifications": 40,
+        "atsScore": 72
+      }
+    },
+    "learningRoadmap": {
+      "domain": "Python Development",
+      "stages": [
+        {
+          "stageName": "Stage 1: Core Fundamentals",
+          "topics": [
+            {
+              "topic": "HTML5, CSS3 & JavaScript (ES6+)",
+              "whyImportant": "Foundation for building interactive web applications and user interfaces.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "MDN Web Docs",
+                "freeCodeCamp"
+              ],
+              "practiceProject": "Build a dynamic web app dashboard."
+            },
+            {
+              "topic": "Git & Version Control",
+              "whyImportant": "Essential for code collaboration and tracking changes.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "Git Documentation"
+              ],
+              "practiceProject": "Publish clean repositories on GitHub."
+            }
+          ]
+        },
+        {
+          "stageName": "Stage 2: Backend & Database Fundamentals",
+          "topics": [
+            {
+              "topic": "Node.js & Express.js REST APIs",
+              "whyImportant": "Crucial for backend business logic and server routing.",
+              "status": "Missing",
+              "difficulty": "Intermediate",
+              "resources": [
+                "Express Docs"
+              ],
+              "practiceProject": "Build a REST API for user authentication."
+            }
+          ]
+        }
+      ]
+    },
+    "githubData": {},
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/eswar-dev-/",
+      "github": "https://github.com/Eswar565",
+      "website": null,
+      "twitter": null
+    },
+    "profilePhoto": "uploads/profiles/367e2c85-585e-4b95-92f1-d494f1660d06.jpg",
+    "resumeFile": null
+  },
+  {
+    "id": "caace548-e9b6-4ae5-b10f-38dff28975a0",
+    "slug": "eswar-m-s-2",
+    "createdAt": "2026-07-28T09:36:55.963Z",
+    "updatedAt": "2026-07-28T09:36:55.963Z",
+    "theme": "emerald-green",
+    "personalInfo": {
+      "fullName": "Eswar M S",
+      "professionalTitle": "python developer",
+      "email": "eswarms565@gmail.com",
+      "phone": "6379084809",
+      "location": "Chennai, TamilNadu",
+      "shortBio": "Software Developer Projects Sentify: Emotion Detection"
+    },
+    "careerDomain": {
+      "selected": "Python Development",
+      "recommended": "Python Development",
+      "reason": "AI Analyzed Fit"
+    },
+    "skills": [
+      "JavaScript",
+      "Python",
+      "HTML",
+      "CSS",
+      "React",
+      "SQL",
+      "MySQL",
+      "Git",
+      "Machine Learning",
+      "Django",
+      "Flask"
+    ],
+    "projects": [
+      {
+        "name": "Sentify: Emotion Detection",
+        "description": "github.com/Eswar565/sentify Experience Web Development Intern",
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML",
+          "CSS"
+        ],
+        "githubUrl": "https://github.com/Eswar565",
+        "liveDemo": null
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.E. Computer Science Engineering",
+        "institution": "K.L.N. College of Engineering",
+        "location": null,
+        "startYear": null,
+        "endYear": null,
+        "cgpa": null,
+        "description": "Certificates Python full stack (course) AI Fundamentals: Foundations for Understanding AI"
+      }
+    ],
+    "experience": [
+      {
+        "jobTitle": "Web Development Intern",
+        "company": "FrontierWox Tech Private Limited",
+        "location": null,
+        "startDate": "Dates specified in resume",
+        "endDate": "Present",
+        "employmentType": null,
+        "responsibilities": [
+          "Education",
+          "B.E. Computer Science Engineering",
+          "K.L.N. College of Engineering",
+          "Certificates"
+        ],
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      }
+    ],
+    "achievements": [],
+    "atsAnalysis": {
+      "score": 76,
+      "breakdown": {
+        "contactInformation": 9,
+        "professionalSummary": 8,
+        "skills": 12,
+        "workExperience": 12,
+        "projects": 8,
+        "education": 9,
+        "keywords": 7,
+        "resumeFormatting": 8,
+        "achievementsMetrics": 2,
+        "certifications": 1
+      },
+      "suggestions": [],
+      "estimatedPotentialScore": 92
+    },
+    "careerReadiness": {
+      "score": 62,
+      "breakdown": {
+        "skills": 100,
+        "projects": 30,
+        "experience": 30,
+        "education": 85,
+        "certifications": 40,
+        "atsScore": 72
+      }
+    },
+    "learningRoadmap": {
+      "domain": "Python Development",
+      "stages": [
+        {
+          "stageName": "Stage 1: Core Fundamentals",
+          "topics": [
+            {
+              "topic": "HTML5, CSS3 & JavaScript (ES6+)",
+              "whyImportant": "Foundation for building interactive web applications and user interfaces.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "MDN Web Docs",
+                "freeCodeCamp"
+              ],
+              "practiceProject": "Build a dynamic web app dashboard."
+            },
+            {
+              "topic": "Git & Version Control",
+              "whyImportant": "Essential for code collaboration and tracking changes.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "Git Documentation"
+              ],
+              "practiceProject": "Publish clean repositories on GitHub."
+            }
+          ]
+        },
+        {
+          "stageName": "Stage 2: Backend & Database Fundamentals",
+          "topics": [
+            {
+              "topic": "Node.js & Express.js REST APIs",
+              "whyImportant": "Crucial for backend business logic and server routing.",
+              "status": "Missing",
+              "difficulty": "Intermediate",
+              "resources": [
+                "Express Docs"
+              ],
+              "practiceProject": "Build a REST API for user authentication."
+            }
+          ]
+        }
+      ]
+    },
+    "githubData": {},
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/eswar-dev-/",
+      "github": "https://github.com/Eswar565",
+      "website": null,
+      "twitter": null
+    },
+    "profilePhoto": null,
+    "resumeFile": null
+  },
+  {
+    "id": "235623ce-63a1-4707-835c-4bc052abbe18",
+    "slug": "eswar-m-s-3",
+    "createdAt": "2026-07-28T10:09:39.042Z",
+    "updatedAt": "2026-07-28T10:09:39.042Z",
+    "theme": "rose-gold",
+    "personalInfo": {
+      "fullName": "Eswar M S",
+      "professionalTitle": "python developer",
+      "email": "eswarms565@gmail.com",
+      "phone": "6379084809",
+      "location": "Chennai, TamilNadu",
+      "shortBio": "Software Developer Projects Sentify: Emotion Detection"
+    },
+    "careerDomain": {
+      "selected": "Full Stack Development",
+      "recommended": "Full Stack Development",
+      "reason": "AI Analyzed Fit"
+    },
+    "skills": [
+      "JavaScript",
+      "Python",
+      "HTML",
+      "CSS",
+      "React",
+      "SQL",
+      "MySQL",
+      "Git",
+      "Machine Learning",
+      "Django",
+      "Flask"
+    ],
+    "projects": [
+      {
+        "name": "Sentify: Emotion Detection",
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML",
+          "CSS"
+        ],
+        "githubUrl": "https://github.com/Eswar565",
+        "liveDemo": null,
+        "description": "Project details extracted from resume."
+      },
+      {
+        "name": "github.com/Eswar565/sentify",
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML",
+          "CSS"
+        ],
+        "githubUrl": "https://github.com/Eswar565",
+        "liveDemo": null,
+        "description": "Project details extracted from resume."
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.E. Computer Science Engineering",
+        "institution": "K.L.N. College of Engineering",
+        "location": null,
+        "startYear": null,
+        "endYear": null,
+        "cgpa": null,
+        "description": "Certificates Python full stack (course) AI Fundamentals: Foundations for Understanding AI"
+      }
+    ],
+    "experience": [
+      {
+        "jobTitle": "Web Development Intern",
+        "company": "FrontierWox Tech Private Limited",
+        "location": null,
+        "startDate": "Dates specified in resume",
+        "endDate": "Present",
+        "employmentType": null,
+        "responsibilities": [
+          "Education",
+          "B.E. Computer Science Engineering",
+          "K.L.N. College of Engineering",
+          "Certificates"
+        ],
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      }
+    ],
+    "achievements": [],
+    "atsAnalysis": {
+      "score": 76,
+      "breakdown": {
+        "contactInformation": 9,
+        "professionalSummary": 8,
+        "skills": 12,
+        "workExperience": 12,
+        "projects": 8,
+        "education": 9,
+        "keywords": 7,
+        "resumeFormatting": 8,
+        "achievementsMetrics": 2,
+        "certifications": 1
+      },
+      "suggestions": [],
+      "estimatedPotentialScore": 92
+    },
+    "careerReadiness": {
+      "score": 67,
+      "breakdown": {
+        "skills": 100,
+        "projects": 50,
+        "experience": 30,
+        "education": 85,
+        "certifications": 40,
+        "atsScore": 72
+      }
+    },
+    "learningRoadmap": {
+      "domain": "Full Stack Development",
+      "stages": [
+        {
+          "stageName": "Stage 1: Core Fundamentals",
+          "topics": [
+            {
+              "topic": "HTML5, CSS3 & JavaScript (ES6+)",
+              "whyImportant": "Foundation for building interactive web applications and user interfaces.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "MDN Web Docs",
+                "freeCodeCamp"
+              ],
+              "practiceProject": "Build a dynamic web app dashboard."
+            },
+            {
+              "topic": "Git & Version Control",
+              "whyImportant": "Essential for code collaboration and tracking changes.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "Git Documentation"
+              ],
+              "practiceProject": "Publish clean repositories on GitHub."
+            }
+          ]
+        },
+        {
+          "stageName": "Stage 2: Backend & Database Fundamentals",
+          "topics": [
+            {
+              "topic": "Node.js & Express.js REST APIs",
+              "whyImportant": "Crucial for backend business logic and server routing.",
+              "status": "Missing",
+              "difficulty": "Intermediate",
+              "resources": [
+                "Express Docs"
+              ],
+              "practiceProject": "Build a REST API for user authentication."
+            }
+          ]
+        }
+      ]
+    },
+    "githubData": {},
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/eswar-dev-/",
+      "github": "https://github.com/Eswar565",
+      "website": null,
+      "twitter": null
+    },
+    "profilePhoto": null,
+    "resumeFile": null
+  },
+  {
+    "id": "8b8032ef-dcc5-40e4-b7ab-97ce7b38a34f",
+    "slug": "eswar-m-s-4",
+    "createdAt": "2026-07-28T10:17:41.692Z",
+    "updatedAt": "2026-07-28T10:17:41.692Z",
+    "theme": "midnight-purple",
+    "personalInfo": {
+      "fullName": "Eswar M S",
+      "professionalTitle": "python developer",
+      "email": "eswarms565@gmail.com",
+      "phone": "6379084809",
+      "location": "Chennai, TamilNadu",
+      "shortBio": "Software Developer Projects Sentify: Emotion Detection"
+    },
+    "careerDomain": {
+      "selected": "Full Stack Development",
+      "recommended": "Full Stack Development",
+      "reason": "AI Analyzed Fit"
+    },
+    "skills": [
+      "JavaScript",
+      "Python",
+      "HTML",
+      "CSS",
+      "React",
+      "SQL",
+      "MySQL",
+      "Git",
+      "Machine Learning",
+      "Django",
+      "Flask"
+    ],
+    "projects": [
+      {
+        "name": "Sentify: Emotion Detection",
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML",
+          "CSS"
+        ],
+        "githubUrl": "https://github.com/Eswar565",
+        "liveDemo": null,
+        "description": "Project details extracted from resume."
+      },
+      {
+        "name": "github.com/Eswar565/sentify",
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML",
+          "CSS"
+        ],
+        "githubUrl": "https://github.com/Eswar565",
+        "liveDemo": null,
+        "description": "Project details extracted from resume."
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.E. Computer Science Engineering",
+        "institution": "K.L.N. College of Engineering",
+        "location": null,
+        "startYear": null,
+        "endYear": null,
+        "cgpa": null,
+        "description": "Certificates Python full stack (course) AI Fundamentals: Foundations for Understanding AI"
+      }
+    ],
+    "experience": [
+      {
+        "jobTitle": "Web Development Intern",
+        "company": "FrontierWox Tech Private Limited",
+        "location": null,
+        "startDate": "Dates specified in resume",
+        "endDate": "Present",
+        "employmentType": null,
+        "responsibilities": [
+          "Education",
+          "B.E. Computer Science Engineering",
+          "K.L.N. College of Engineering",
+          "Certificates"
+        ],
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      }
+    ],
+    "achievements": [],
+    "atsAnalysis": {
+      "score": 76,
+      "breakdown": {
+        "contactInformation": 9,
+        "professionalSummary": 8,
+        "skills": 12,
+        "workExperience": 12,
+        "projects": 8,
+        "education": 9,
+        "keywords": 7,
+        "resumeFormatting": 8,
+        "achievementsMetrics": 2,
+        "certifications": 1
+      },
+      "suggestions": [],
+      "estimatedPotentialScore": 92
+    },
+    "careerReadiness": {
+      "score": 67,
+      "breakdown": {
+        "skills": 100,
+        "projects": 50,
+        "experience": 30,
+        "education": 85,
+        "certifications": 40,
+        "atsScore": 72
+      }
+    },
+    "learningRoadmap": {
+      "domain": "Full Stack Development",
+      "stages": [
+        {
+          "stageName": "Stage 1: Core Fundamentals",
+          "topics": [
+            {
+              "topic": "HTML5, CSS3 & JavaScript (ES6+)",
+              "whyImportant": "Foundation for building interactive web applications and user interfaces.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "MDN Web Docs",
+                "freeCodeCamp"
+              ],
+              "practiceProject": "Build a dynamic web app dashboard."
+            },
+            {
+              "topic": "Git & Version Control",
+              "whyImportant": "Essential for code collaboration and tracking changes.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "Git Documentation"
+              ],
+              "practiceProject": "Publish clean repositories on GitHub."
+            }
+          ]
+        },
+        {
+          "stageName": "Stage 2: Backend & Database Fundamentals",
+          "topics": [
+            {
+              "topic": "Node.js & Express.js REST APIs",
+              "whyImportant": "Crucial for backend business logic and server routing.",
+              "status": "Missing",
+              "difficulty": "Intermediate",
+              "resources": [
+                "Express Docs"
+              ],
+              "practiceProject": "Build a REST API for user authentication."
+            }
+          ]
+        }
+      ]
+    },
+    "githubData": {},
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/eswar-dev-/",
+      "github": "https://github.com/Eswar565",
+      "website": null,
+      "twitter": null
+    },
+    "profilePhoto": null,
+    "resumeFile": null
+  },
+  {
+    "id": "f5e24b8c-8e71-4279-9855-77bcada29e8c",
+    "slug": "eswar-m-s-5",
+    "createdAt": "2026-07-28T10:22:59.825Z",
+    "updatedAt": "2026-07-28T10:22:59.825Z",
+    "theme": "midnight-purple",
+    "personalInfo": {
+      "fullName": "Eswar M S",
+      "professionalTitle": "python developer",
+      "email": "eswarms565@gmail.com",
+      "phone": "6379084809",
+      "location": "Chennai, TamilNadu",
+      "shortBio": "Software Developer Projects Sentify: Emotion Detection"
+    },
+    "careerDomain": {
+      "selected": "Full Stack Development",
+      "recommended": "Full Stack Development",
+      "reason": "AI Analyzed Fit"
+    },
+    "skills": [
+      "JavaScript",
+      "Python",
+      "HTML",
+      "CSS",
+      "React",
+      "SQL",
+      "MySQL",
+      "Git",
+      "Machine Learning",
+      "Django",
+      "Flask"
+    ],
+    "projects": [
+      {
+        "name": "Sentify: Emotion Detection",
+        "description": "github.com/Eswar565/sentify Experience Web Development Intern",
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML",
+          "CSS"
+        ],
+        "githubUrl": "https://github.com/Eswar565",
+        "liveDemo": null
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.E. Computer Science Engineering",
+        "institution": "K.L.N. College of Engineering",
+        "location": null,
+        "startYear": null,
+        "endYear": null,
+        "cgpa": null,
+        "description": "Certificates Python full stack (course) AI Fundamentals: Foundations for Understanding AI"
+      }
+    ],
+    "experience": [
+      {
+        "jobTitle": "Web Development Intern",
+        "company": "FrontierWox Tech Private Limited",
+        "location": null,
+        "startDate": "Dates specified in resume",
+        "endDate": "Present",
+        "employmentType": null,
+        "responsibilities": [
+          "Education",
+          "B.E. Computer Science Engineering",
+          "K.L.N. College of Engineering",
+          "Certificates"
+        ],
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      }
+    ],
+    "achievements": [],
+    "atsAnalysis": {
+      "score": 76,
+      "breakdown": {
+        "contactInformation": 9,
+        "professionalSummary": 8,
+        "skills": 12,
+        "workExperience": 12,
+        "projects": 8,
+        "education": 9,
+        "keywords": 7,
+        "resumeFormatting": 8,
+        "achievementsMetrics": 2,
+        "certifications": 1
+      },
+      "suggestions": [],
+      "estimatedPotentialScore": 92
+    },
+    "careerReadiness": {
+      "score": 62,
+      "breakdown": {
+        "skills": 100,
+        "projects": 30,
+        "experience": 30,
+        "education": 85,
+        "certifications": 40,
+        "atsScore": 72
+      }
+    },
+    "learningRoadmap": {
+      "domain": "Full Stack Development",
+      "stages": [
+        {
+          "stageName": "Stage 1: Core Fundamentals",
+          "topics": [
+            {
+              "topic": "HTML5, CSS3 & JavaScript (ES6+)",
+              "whyImportant": "Foundation for building interactive web applications and user interfaces.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "MDN Web Docs",
+                "freeCodeCamp"
+              ],
+              "practiceProject": "Build a dynamic web app dashboard."
+            },
+            {
+              "topic": "Git & Version Control",
+              "whyImportant": "Essential for code collaboration and tracking changes.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "Git Documentation"
+              ],
+              "practiceProject": "Publish clean repositories on GitHub."
+            }
+          ]
+        },
+        {
+          "stageName": "Stage 2: Backend & Database Fundamentals",
+          "topics": [
+            {
+              "topic": "Node.js & Express.js REST APIs",
+              "whyImportant": "Crucial for backend business logic and server routing.",
+              "status": "Missing",
+              "difficulty": "Intermediate",
+              "resources": [
+                "Express Docs"
+              ],
+              "practiceProject": "Build a REST API for user authentication."
+            }
+          ]
+        }
+      ]
+    },
+    "githubData": {},
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/eswar-dev-/",
+      "github": "https://github.com/Eswar565",
+      "website": null,
+      "twitter": null
+    },
+    "profilePhoto": null,
+    "resumeFile": null
+  },
+  {
+    "id": "8375a65a-9318-4d30-8475-4827ed284ebf",
+    "slug": "eswar-m-s-6",
+    "createdAt": "2026-07-28T10:27:30.241Z",
+    "updatedAt": "2026-07-28T10:27:30.241Z",
+    "theme": "emerald-green",
+    "personalInfo": {
+      "fullName": "Eswar M S",
+      "professionalTitle": "python developer",
+      "email": "eswarms565@gmail.com",
+      "phone": "6379084809",
+      "location": "Chennai, TamilNadu",
+      "shortBio": "Software Developer Projects Sentify: Emotion Detection"
+    },
+    "careerDomain": {
+      "selected": "Python Development",
+      "recommended": "Python Development",
+      "reason": "AI Analyzed Fit"
+    },
+    "skills": [
+      "JavaScript",
+      "Python",
+      "HTML",
+      "CSS",
+      "React",
+      "SQL",
+      "MySQL",
+      "Git",
+      "Machine Learning",
+      "Django",
+      "Flask"
+    ],
+    "projects": [
+      {
+        "name": "Sentify: Emotion Detection",
+        "description": "github.com/Eswar565/sentify Experience Web Development Intern",
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML",
+          "CSS"
+        ],
+        "githubUrl": "https://github.com/Eswar565",
+        "liveDemo": null
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.E. Computer Science Engineering",
+        "institution": "K.L.N. College of Engineering",
+        "location": null,
+        "startYear": null,
+        "endYear": null,
+        "cgpa": null,
+        "description": "Certificates Python full stack (course) AI Fundamentals: Foundations for Understanding AI"
+      }
+    ],
+    "experience": [
+      {
+        "jobTitle": "Web Development Intern",
+        "company": "FrontierWox Tech Private Limited",
+        "location": null,
+        "startDate": "Dates specified in resume",
+        "endDate": "Present",
+        "employmentType": null,
+        "responsibilities": [
+          "Education",
+          "B.E. Computer Science Engineering",
+          "K.L.N. College of Engineering",
+          "Certificates"
+        ],
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      }
+    ],
+    "achievements": [],
+    "atsAnalysis": {
+      "score": 76,
+      "breakdown": {
+        "contactInformation": 9,
+        "professionalSummary": 8,
+        "skills": 12,
+        "workExperience": 12,
+        "projects": 8,
+        "education": 9,
+        "keywords": 7,
+        "resumeFormatting": 8,
+        "achievementsMetrics": 2,
+        "certifications": 1
+      },
+      "suggestions": [],
+      "estimatedPotentialScore": 92
+    },
+    "careerReadiness": {
+      "score": 62,
+      "breakdown": {
+        "skills": 100,
+        "projects": 30,
+        "experience": 30,
+        "education": 85,
+        "certifications": 40,
+        "atsScore": 72
+      }
+    },
+    "learningRoadmap": {
+      "domain": "Python Development",
+      "stages": [
+        {
+          "stageName": "Stage 1: Core Fundamentals",
+          "topics": [
+            {
+              "topic": "HTML5, CSS3 & JavaScript (ES6+)",
+              "whyImportant": "Foundation for building interactive web applications and user interfaces.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "MDN Web Docs",
+                "freeCodeCamp"
+              ],
+              "practiceProject": "Build a dynamic web app dashboard."
+            },
+            {
+              "topic": "Git & Version Control",
+              "whyImportant": "Essential for code collaboration and tracking changes.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "Git Documentation"
+              ],
+              "practiceProject": "Publish clean repositories on GitHub."
+            }
+          ]
+        },
+        {
+          "stageName": "Stage 2: Backend & Database Fundamentals",
+          "topics": [
+            {
+              "topic": "Node.js & Express.js REST APIs",
+              "whyImportant": "Crucial for backend business logic and server routing.",
+              "status": "Missing",
+              "difficulty": "Intermediate",
+              "resources": [
+                "Express Docs"
+              ],
+              "practiceProject": "Build a REST API for user authentication."
+            }
+          ]
+        }
+      ]
+    },
+    "githubData": {},
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/eswar-dev-/",
+      "github": "https://github.com/Eswar565",
+      "website": null,
+      "twitter": null
+    },
+    "profilePhoto": null,
+    "resumeFile": null
+  },
+  {
+    "id": "3ddacf62-f281-44ba-87af-0968f3066dec",
+    "slug": "eswar-m-s-7",
+    "createdAt": "2026-07-28T10:31:56.729Z",
+    "updatedAt": "2026-07-28T10:31:56.729Z",
+    "theme": "midnight-purple",
+    "personalInfo": {
+      "fullName": "Eswar M S",
+      "professionalTitle": "python developer",
+      "email": "eswarms565@gmail.com",
+      "phone": "6379084809",
+      "location": "Chennai, TamilNadu",
+      "shortBio": "Software Developer Projects Sentify: Emotion Detection"
+    },
+    "careerDomain": {
+      "selected": "Full Stack Development",
+      "recommended": "Full Stack Development",
+      "reason": "AI Analyzed Fit"
+    },
+    "skills": [
+      "JavaScript",
+      "Python",
+      "HTML",
+      "CSS",
+      "React",
+      "SQL",
+      "MySQL",
+      "Git",
+      "Machine Learning",
+      "Django",
+      "Flask"
+    ],
+    "projects": [
+      {
+        "name": "Sentify: Emotion Detection",
+        "description": "github.com/Eswar565/sentify Experience Web Development Intern",
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML",
+          "CSS"
+        ],
+        "githubUrl": "https://github.com/Eswar565",
+        "liveDemo": null
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.E. Computer Science Engineering",
+        "institution": "K.L.N. College of Engineering",
+        "location": null,
+        "startYear": null,
+        "endYear": null,
+        "cgpa": null,
+        "description": "Certificates Python full stack (course) AI Fundamentals: Foundations for Understanding AI"
+      }
+    ],
+    "experience": [
+      {
+        "jobTitle": "Web Development Intern",
+        "company": "FrontierWox Tech Private Limited",
+        "location": null,
+        "startDate": "Dates specified in resume",
+        "endDate": "Present",
+        "employmentType": null,
+        "responsibilities": [
+          "Education",
+          "B.E. Computer Science Engineering",
+          "K.L.N. College of Engineering",
+          "Certificates"
+        ],
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      }
+    ],
+    "achievements": [],
+    "atsAnalysis": {
+      "score": 76,
+      "breakdown": {
+        "contactInformation": 9,
+        "professionalSummary": 8,
+        "skills": 12,
+        "workExperience": 12,
+        "projects": 8,
+        "education": 9,
+        "keywords": 7,
+        "resumeFormatting": 8,
+        "achievementsMetrics": 2,
+        "certifications": 1
+      },
+      "suggestions": [],
+      "estimatedPotentialScore": 92
+    },
+    "careerReadiness": {
+      "score": 62,
+      "breakdown": {
+        "skills": 100,
+        "projects": 30,
+        "experience": 30,
+        "education": 85,
+        "certifications": 40,
+        "atsScore": 72
+      }
+    },
+    "learningRoadmap": {
+      "domain": "Full Stack Development",
+      "stages": [
+        {
+          "stageName": "Stage 1: Core Fundamentals",
+          "topics": [
+            {
+              "topic": "HTML5, CSS3 & JavaScript (ES6+)",
+              "whyImportant": "Foundation for building interactive web applications and user interfaces.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "MDN Web Docs",
+                "freeCodeCamp"
+              ],
+              "practiceProject": "Build a dynamic web app dashboard."
+            },
+            {
+              "topic": "Git & Version Control",
+              "whyImportant": "Essential for code collaboration and tracking changes.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "Git Documentation"
+              ],
+              "practiceProject": "Publish clean repositories on GitHub."
+            }
+          ]
+        },
+        {
+          "stageName": "Stage 2: Backend & Database Fundamentals",
+          "topics": [
+            {
+              "topic": "Node.js & Express.js REST APIs",
+              "whyImportant": "Crucial for backend business logic and server routing.",
+              "status": "Missing",
+              "difficulty": "Intermediate",
+              "resources": [
+                "Express Docs"
+              ],
+              "practiceProject": "Build a REST API for user authentication."
+            }
+          ]
+        }
+      ]
+    },
+    "githubData": {},
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/eswar-dev-/",
+      "github": "https://github.com/Eswar565",
+      "website": null,
+      "twitter": null
+    },
+    "profilePhoto": null,
+    "resumeFile": null
+  },
+  {
+    "id": "e34e390a-464f-4903-9088-f394e77d98e8",
+    "slug": "eswar-m-s-8",
+    "createdAt": "2026-07-28T10:48:50.132Z",
+    "updatedAt": "2026-07-28T10:48:50.132Z",
+    "theme": "midnight-purple",
+    "personalInfo": {
+      "fullName": "Eswar M S",
+      "professionalTitle": "python developer",
+      "email": "eswarms565@gmail.com",
+      "phone": "6379084809",
+      "location": "Chennai, TamilNadu",
+      "shortBio": "Software Developer Projects Sentify: Emotion Detection"
+    },
+    "careerDomain": {
+      "selected": "Full Stack Development",
+      "recommended": "Full Stack Development",
+      "reason": "AI Analyzed Fit"
+    },
+    "skills": [
+      "JavaScript",
+      "Python",
+      "HTML",
+      "CSS",
+      "React",
+      "SQL",
+      "MySQL",
+      "Git",
+      "Machine Learning",
+      "Django",
+      "Flask"
+    ],
+    "projects": [
+      {
+        "name": "Sentify: Emotion Detection",
+        "description": "github.com/Eswar565/sentify Experience Web Development Intern",
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML",
+          "CSS"
+        ],
+        "githubUrl": "https://github.com/Eswar565",
+        "liveDemo": null
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.E. Computer Science Engineering",
+        "institution": "K.L.N. College of Engineering",
+        "location": null,
+        "startYear": null,
+        "endYear": null,
+        "cgpa": null,
+        "description": "Certificates Python full stack (course) AI Fundamentals: Foundations for Understanding AI"
+      }
+    ],
+    "experience": [
+      {
+        "jobTitle": "Web Development Intern",
+        "company": "FrontierWox Tech Private Limited",
+        "location": null,
+        "startDate": "Dates specified in resume",
+        "endDate": "Present",
+        "employmentType": null,
+        "responsibilities": [
+          "Education",
+          "B.E. Computer Science Engineering",
+          "K.L.N. College of Engineering",
+          "Certificates"
+        ],
+        "technologies": [
+          "JavaScript",
+          "Python",
+          "HTML"
+        ]
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      }
+    ],
+    "achievements": [],
+    "atsAnalysis": {
+      "score": 76,
+      "breakdown": {
+        "contactInformation": 9,
+        "professionalSummary": 8,
+        "skills": 12,
+        "workExperience": 12,
+        "projects": 8,
+        "education": 9,
+        "keywords": 7,
+        "resumeFormatting": 8,
+        "achievementsMetrics": 2,
+        "certifications": 1
+      },
+      "suggestions": [],
+      "estimatedPotentialScore": 92
+    },
+    "careerReadiness": {
+      "score": 62,
+      "breakdown": {
+        "skills": 100,
+        "projects": 30,
+        "experience": 30,
+        "education": 85,
+        "certifications": 40,
+        "atsScore": 72
+      }
+    },
+    "learningRoadmap": {
+      "domain": "Full Stack Development",
+      "stages": [
+        {
+          "stageName": "Stage 1: Core Fundamentals",
+          "topics": [
+            {
+              "topic": "HTML5, CSS3 & JavaScript (ES6+)",
+              "whyImportant": "Foundation for building interactive web applications and user interfaces.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "MDN Web Docs",
+                "freeCodeCamp"
+              ],
+              "practiceProject": "Build a dynamic web app dashboard."
+            },
+            {
+              "topic": "Git & Version Control",
+              "whyImportant": "Essential for code collaboration and tracking changes.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "Git Documentation"
+              ],
+              "practiceProject": "Publish clean repositories on GitHub."
+            }
+          ]
+        },
+        {
+          "stageName": "Stage 2: Backend & Database Fundamentals",
+          "topics": [
+            {
+              "topic": "Node.js & Express.js REST APIs",
+              "whyImportant": "Crucial for backend business logic and server routing.",
+              "status": "Missing",
+              "difficulty": "Intermediate",
+              "resources": [
+                "Express Docs"
+              ],
+              "practiceProject": "Build a REST API for user authentication."
+            }
+          ]
+        }
+      ]
+    },
+    "githubData": {},
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/eswar-dev-/",
+      "github": "https://github.com/Eswar565",
+      "website": null,
+      "twitter": null
+    },
+    "profilePhoto": null,
+    "resumeFile": null
+  },
+  {
+    "id": "1b0639b6-7b69-4960-9d21-1e25ea05559c",
+    "slug": "eswar-m-s-9",
+    "createdAt": "2026-07-28T14:11:13.432Z",
+    "updatedAt": "2026-07-28T14:11:13.433Z",
+    "theme": "midnight-purple",
+    "personalInfo": {
+      "fullName": "Eswar M S",
+      "professionalTitle": "python developer",
+      "email": "eswarms565@gmail.com",
+      "phone": "6379084809",
+      "location": "Chennai, TamilNadu",
+      "shortBio": "Results-driven Computer Science graduate (2026) proficient in Python, Django, HTML, CSS, SQL, React JS, JavaScript, and RESTful API\ndevelopment. Proficient in designing and implementing MySQL database design, CRUD operations, and backend integration.\nFamiliar with git version control, SDLC methodologies, debugging, and code optimization. Seeking an entry-level Software Engineer\nrole to contribute to scalable web application development"
+    },
+    "careerDomain": {
+      "selected": "Full Stack Development",
+      "recommended": "Full Stack Development",
+      "reason": "AI Analyzed Fit"
+    },
+    "skills": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Git"
+    ],
+    "projects": [
+      {
+        "name": "Emotion detection",
+        "description": "URL-Phishing Experiences web development intern completed",
+        "technologies": [],
+        "githubUrl": null,
+        "liveDemo": null
+      }
+    ],
+    "education": [],
+    "experience": [
+      {
+        "jobTitle": "web development intern completed",
+        "company": "Company / Organization",
+        "location": null,
+        "startDate": "Dates specified in resume",
+        "endDate": "Present",
+        "employmentType": null,
+        "responsibilities": [],
+        "technologies": []
+      }
+    ],
+    "certifications": [],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      }
+    ],
+    "achievements": [],
+    "atsAnalysis": {
+      "score": 67,
+      "breakdown": {
+        "contactInformation": 9,
+        "professionalSummary": 8,
+        "skills": 7,
+        "workExperience": 12,
+        "projects": 8,
+        "education": 5,
+        "keywords": 7,
+        "resumeFormatting": 8,
+        "achievementsMetrics": 2,
+        "certifications": 1
+      },
+      "suggestions": [
+        {
+          "category": "Keywords & Technical Skills",
+          "priority": "high",
+          "problem": "Your resume lists relatively few domain-specific keywords.",
+          "whyItMatters": "ATS filters evaluate keyword density for job role matches.",
+          "howToFix": "List core technical frameworks, databases, tools, and methodologies explicitly.",
+          "example": "Add relevant keywords such as REST APIs, Git, Agile, SQL, and Docker to your skills section."
+        }
+      ],
+      "estimatedPotentialScore": 83
+    },
+    "careerReadiness": {
+      "score": 42,
+      "breakdown": {
+        "skills": 40,
+        "projects": 30,
+        "experience": 30,
+        "education": 50,
+        "certifications": 40,
+        "atsScore": 72
+      }
+    },
+    "learningRoadmap": {
+      "domain": "Full Stack Development",
+      "stages": [
+        {
+          "stageName": "Stage 1: Core Fundamentals",
+          "topics": [
+            {
+              "topic": "HTML5, CSS3 & JavaScript (ES6+)",
+              "whyImportant": "Foundation for building interactive web applications and user interfaces.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "MDN Web Docs",
+                "freeCodeCamp"
+              ],
+              "practiceProject": "Build a dynamic web app dashboard."
+            },
+            {
+              "topic": "Git & Version Control",
+              "whyImportant": "Essential for code collaboration and tracking changes.",
+              "status": "Completed",
+              "difficulty": "Beginner",
+              "resources": [
+                "Git Documentation"
+              ],
+              "practiceProject": "Publish clean repositories on GitHub."
+            }
+          ]
+        },
+        {
+          "stageName": "Stage 2: Backend & Database Fundamentals",
+          "topics": [
+            {
+              "topic": "Node.js & Express.js REST APIs",
+              "whyImportant": "Crucial for backend business logic and server routing.",
+              "status": "Missing",
+              "difficulty": "Intermediate",
+              "resources": [
+                "Express Docs"
+              ],
+              "practiceProject": "Build a REST API for user authentication."
+            }
+          ]
+        }
+      ]
+    },
+    "githubData": {},
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/in/eswar-dev-/",
+      "github": "https://github.com/Eswar565",
+      "website": null,
+      "twitter": null
+    },
+    "profilePhoto": null,
+    "resumeFile": null
+  }
+]

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review & Edit Resume Data - AI Career Portfolio</title>
+  <meta name="description" content="Review and edit parsed resume details before generating your final portfolio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/review.css">
+</head>
+<body class="dark-theme">
+  <!-- Navbar -->
+  <header class="navbar glass">
+    <div class="container nav-container">
+      <a href="/" class="brand">
+        <div class="brand-icon"><i class="fa-solid fa-brain"></i></div>
+        <span class="brand-text">AI Career<span class="gradient-text">Portfolio</span></span>
+      </a>
+
+      <div class="nav-links">
+        <a href="/dashboard" class="btn btn-outline btn-sm"><i class="fa-solid fa-chart-line"></i> Back to Dashboard</a>
+        <button class="theme-toggle-nav-btn ml-2" id="nav-mode-toggle" title="Toggle Light/Dark Mode" aria-label="Toggle Light/Dark Mode">
+          <i class="fa-solid fa-sun sun-icon"></i>
+          <i class="fa-solid fa-moon moon-icon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="review-container container">
+    <div class="review-header glass-card">
+      <div>
+        <h2>Review & Edit <span class="gradient-text">Resume Data</span></h2>
+        <p class="text-muted">Verify and refine all AI-parsed information to ensure your online portfolio looks flawless.</p>
+      </div>
+      <div class="header-actions">
+        <button id="save-review-btn" class="btn btn-primary"><i class="fa-solid fa-floppy-disk"></i> Save Changes</button>
+        <button id="generate-from-review-btn" class="btn btn-secondary"><i class="fa-solid fa-wand-sparkles"></i> Generate Portfolio</button>
+      </div>
+    </div>
+
+    <!-- Edit Form Sections -->
+    <form id="review-form">
+      <!-- 1. Personal Info Section -->
+      <div class="card glass-card review-section">
+        <h3><i class="fa-solid fa-user-gear"></i> Personal Information & About</h3>
+        <div class="form-row mt-3">
+          <div class="form-group">
+            <label for="rev-fullName">Full Name</label>
+            <input type="text" id="rev-fullName" class="form-input">
+          </div>
+          <div class="form-group">
+            <label for="rev-professionalTitle">Professional Title</label>
+            <input type="text" id="rev-professionalTitle" class="form-input">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="rev-email">Email</label>
+            <input type="email" id="rev-email" class="form-input">
+          </div>
+          <div class="form-group">
+            <label for="rev-phone">Phone Number</label>
+            <input type="text" id="rev-phone" class="form-input">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="rev-location">Location</label>
+          <input type="text" id="rev-location" class="form-input">
+        </div>
+
+        <div class="form-group">
+          <label for="rev-about">Professional Summary / About</label>
+          <textarea id="rev-about" class="form-input" rows="4"></textarea>
+        </div>
+      </div>
+
+      <!-- 2. Technical Skills Section -->
+      <div class="card glass-card review-section">
+        <h3><i class="fa-solid fa-code"></i> Technical Skills</h3>
+        <p class="text-muted font-sm mb-3">Add or remove skills separated by commas or press Enter.</p>
+        <div class="form-group">
+          <input type="text" id="skills-input-field" class="form-input" placeholder="Type a skill and press Enter...">
+        </div>
+        <div class="skills-tag-container" id="skills-tags-box">
+          <!-- Tags rendered via JS -->
+        </div>
+      </div>
+
+      <!-- 3. Projects Section -->
+      <div class="card glass-card review-section">
+        <div class="section-title-row">
+          <h3><i class="fa-solid fa-folder-open"></i> Projects</h3>
+          <button type="button" class="btn btn-outline btn-sm" id="add-project-btn"><i class="fa-solid fa-plus"></i> Add Project</button>
+        </div>
+        <div id="projects-list-container" class="dynamic-items-list mt-3">
+          <!-- Dynamic Project Cards -->
+        </div>
+      </div>
+
+      <!-- 4. Work Experience Section -->
+      <div class="card glass-card review-section">
+        <div class="section-title-row">
+          <h3><i class="fa-solid fa-briefcase"></i> Work Experience</h3>
+          <button type="button" class="btn btn-outline btn-sm" id="add-exp-btn"><i class="fa-solid fa-plus"></i> Add Experience</button>
+        </div>
+        <div id="exp-list-container" class="dynamic-items-list mt-3">
+          <!-- Dynamic Experience Cards -->
+        </div>
+      </div>
+
+      <!-- 5. Education Section -->
+      <div class="card glass-card review-section">
+        <div class="section-title-row">
+          <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+          <button type="button" class="btn btn-outline btn-sm" id="add-edu-btn"><i class="fa-solid fa-plus"></i> Add Education</button>
+        </div>
+        <div id="edu-list-container" class="dynamic-items-list mt-3">
+          <!-- Dynamic Education Cards -->
+        </div>
+      </div>
+
+      <!-- 6. Certifications Section -->
+      <div class="card glass-card review-section">
+        <div class="section-title-row">
+          <h3><i class="fa-solid fa-award"></i> Certifications</h3>
+          <button type="button" class="btn btn-outline btn-sm" id="add-cert-btn"><i class="fa-solid fa-plus"></i> Add Certification</button>
+        </div>
+        <div id="cert-list-container" class="dynamic-items-list mt-3">
+          <!-- Dynamic Certifications -->
+        </div>
+      </div>
+
+      <!-- Submit Footer -->
+      <div class="review-footer-actions">
+        <button type="submit" class="btn btn-primary btn-lg glow-btn"><i class="fa-solid fa-floppy-disk"></i> Save & Continue to Dashboard</button>
+      </div>
+    </form>
+  </main>
+
+  <script src="/js/review.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "ai-career-portfolio",
+  "version": "1.0.0",
+  "description": "AI Career Portfolio - An AI-powered resume analyzer and portfolio generator",
+  "main": "server.js",
+ 
+  "keywords": [
+    "ai",
+    "portfolio",
+    "resume",
+    "ats",
+    "career",
+    "github",
+    "chatbot"
+  ],
+  "author": "AI Career Portfolio Team",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^1.1.1",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
